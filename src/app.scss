@@ -1,0 +1,42 @@
+$font-color: red;
+
+
+#super-container {
+  background-color: #ccc;
+  width: 600px;
+  height: 600px;
+
+  .content {
+    font-weight: bolder;
+    padding: 20px;
+
+    &-title {
+      text-decoration: underline;
+      color: $font-color;
+    }
+
+    &-description {
+      font-family: sans-serif;
+      color: $font-color;
+    }
+  }
+
+  .box {
+    text-align: center;
+
+    &-text {
+      margin-top: 20px;
+      border: 2px solid black;
+    }
+
+    &-ul {
+      background-color: red;
+
+      &-li {
+        list-style-type:none;
+        padding: 10px;
+        font-size: 18px;
+      }
+    }
+  }
+}
